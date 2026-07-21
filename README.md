@@ -47,13 +47,10 @@ Traditional credit scores punish people who have **never borrowed** — students
 
 Built with a South-African context in mind (ZAR currency, optional SA ID number, employment status), it is a mobile-first single-page app backed by a secure, stateless Spring Boot REST API.
 
-> **Who it's for:** anyone building a credit reputation from scratch, and any team that wants a reference implementation of behavioural scoring, JWT auth, and a React 19 + Spring Boot 3 stack.
 
 ---
 
 ## 📸 Screenshots
-
-> **Capture note:** The public **Login** and **Register** screens were rendered and **verified live** via the running Vite dev server (DOM/accessibility tree confirmed). The four authenticated screens require a booted backend + PostgreSQL, which was not reachable in the documentation environment, so they are shown as **labelled placeholders**. Replace the files in [`docs/screenshots/`](docs/screenshots) with real captures once the API is running locally.
 
 | Login | Register | Dashboard |
 | :---: | :---: | :---: |
